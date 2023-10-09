@@ -1,4 +1,5 @@
 import streamlit as lit
+
 # Pages 
 from predict import show_prediction_page
 from explore import show_explore_page
