@@ -18,9 +18,9 @@ scaler = model_data['scaler']
 
 def get_pred_info(pred):
     if pred == 0:
-        return ("There is no risk of heart disease")
+        return ("💖 No heart disease")
     elif pred == 1:
-        return ("There is a high chance of having a heart disease")
+        return ("💔 There is a high chance of a heart disease")
     
 def get_prediction(model, data):
 
